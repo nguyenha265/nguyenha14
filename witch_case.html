@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="text" id="nhapSoNgay"/>
+<input type="button" onclick="tinhSoNgay()" value="tính số ngày"/><br/>
+<script>
+    function tinhSoNgay() {
+        let ketqua = document.getElementById("nhapSoNgay");
+        switch (ketqua.value) {
+            case "1" :
+                i.innerHTML = "tháng 1 có 31 ngày";
+                break;
+            case "2" :
+                i.innerHTML = "tháng 2 có 29 ngày";
+                break;
+            case "3" :
+                i.innerHTML = "tháng 3 có 31 ngày";
+                break;
+            case "4" :
+                i.innerHTML = "tháng 4 có 30 ngày";
+                break;
+            case "5" :
+                i.innerHTML = "tháng 5 có 31 ngày";
+                break;
+            case "6" :
+                i.innerHTML = "tháng 6 có 30 ngày";
+                break;
+            case "7" :
+                i.innerHTML = "tháng 7 có 31 ngày";
+                break;
+            case "8" :
+                i.innerHTML = "tháng 8 có 31 ngày";
+                break;
+            case "9" :
+                i.innerHTML = "tháng 9 có 30 ngày";
+                break;
+            case "10" :
+                i.innerHTML = "tháng 10 có 31 ngày";
+                break;
+            case "11" :
+                i.innerHTML = "tháng 11 có 30 ngày";
+                break;
+            case "12" :
+                i.innerHTML = "tháng 12 có 31 ngày";
+                break;
+            default :
+                i.innerHTML = "không rõ";
+        }
+    }
+</script>
+<p id="i"></p>
+</body>
+</html>
